@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas - Contacto y Enlaces</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 0; }
+        header { background-color: #2c3e50; color: white; padding: 2rem; text-align: center; }
+        nav { background-color: #34495e; display: flex; justify-content: center; gap: 2rem; padding: 1rem; }
+        nav a { color: #ecf0f1; text-decoration: none; font-weight: 600; }
+        nav a:hover, nav a.active { color: #3498db; }
+        .container { max-width: 700px; margin: 2rem auto; padding: 0 1rem; text-align: center; }
+        .card-link { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); margin-bottom: 1.5rem; }
+        .btn-link { background-color: #8e44ad; color: white; padding: 0.6rem 1.2rem; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 0.8rem; }
+        .btn-link:hover { background-color: #732d91; }
+        .info-contacto { font-weight: bold; color: #2980b9; }
+        footer { text-align: center; padding: 1.5rem; background-color: #2c3e50; color: white; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>📞 Contacto y Enlaces</h1>
+        <p>Estamos listos para atenderte</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Principal</a>
+        <a href="adopciones.html">Adopta</a>
+        <a href="donaciones.html">Dona</a>
+        <a href="links.html" class="active">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <!-- Bloque de Correo Electrónico -->
+        <div class="card-link">
+            <h3>Enviar Solicitud por Correo</h3>
+            <p>¿Quieres mandar la información de adopción o coordinar un donativo? Escríbenos directamente a:</p>
+            <p class="info-contacto">huellitasrescate@gmail.com</p>
+            <!-- Este botón abre el cliente de correo del usuario con la dirección ya puesta -->
+            <a href="mailto:huellitasrescate@gmail.com?subject=Solicitud%20de%20Adopci%C3%B3n%20o%20Donaci%C3%B3n&body=Hola,%20quiero%20más%20información%20sobre..." class="btn-link">Enviar Correo</a>
+        </div>
+
+        <!-- Bloque de WhatsApp -->
+        <div class="card-link">
+            <h3>Atención por WhatsApp</h3>
+            <p>Comunícate de forma rápida con nosotros al número:</p>
+            <p class="info-contacto">664 781 6524</p>
+            <!-- Este botón abre WhatsApp automáticamente con el número y un mensaje predeterminado -->
+            <a href="https://wa.me/526647816524?text=Hola,%20estoy%20interesado%20en%20adoptar%20o%20hacer%20una%20donación%20en%20Huellitas." target="_blank" class="btn-link">Chatear por WhatsApp</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Huellitas - Amor sin condiciones</p>
+    </footer>
+
+</body>
+</html>
+
